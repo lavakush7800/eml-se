@@ -21,4 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::view('superadmin','superadmin');
+Route::view('superadmin','HomeController@index');
