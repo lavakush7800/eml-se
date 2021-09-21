@@ -39,6 +39,12 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                       <li>
+                           <a class="nav-link" href="/user">Home</a>
+                        </li>
+                        <li>
+                           <a class="nav-link" href="/user">Book</a>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
