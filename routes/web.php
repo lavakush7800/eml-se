@@ -57,7 +57,7 @@ Route::get('/category/delete/{id}','Crud\CategoryController@delete')->middleware
 
 
 
-Route::get('/user','Crud\FrontEndController@index')->middleware('checklogin');
+Route::get('/user','Crud\FrontEndController@index');
 Route::get('/book/{id}','Crud\FrontEndController@getBookId')->middleware('checklogin');
 Route::post('/cart/book','Crud\CartController@add')->middleware('checklogin');
 Route::get('/cart','Crud\CartController@addByCart')->middleware('checklogin');
