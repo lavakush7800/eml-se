@@ -21,7 +21,7 @@ class BookController extends Controller
         return view('book',$data);
     }
 
-    public function storeBook(Request $request){
+    public function storeBook(StoreBook $request){
         try{
             $data = $request->all();
             $fname = $request->image->store('/public');
