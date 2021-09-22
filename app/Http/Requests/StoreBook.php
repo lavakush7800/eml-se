@@ -27,6 +27,13 @@ class StoreBook extends FormRequest
             'image' => 'required',
             'name' => 'required',
             'price' => 'required',
+            'year' => 'required',
+            'page' => 'required',
+            'quantity' => 'required',
+            'description' => 'required',
+            'author' => 'required',
+            'publisher' => 'required',
+            'category' => 'required',
         ];
     }
 }
