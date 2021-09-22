@@ -31,7 +31,7 @@ class StoreBook extends FormRequest
             'page' => 'required',
             'quantity' => 'required',
             'description' => 'required',
-            'author' => 'required',
+            'author_id' => 'required',
             'publisher' => 'required',
             'category' => 'required',
         ];
