@@ -25,7 +25,7 @@ class StoreBook extends FormRequest
     {
         return [
             'image' => 'required',
-            'name' => 'required',
+            'title' => 'required',
             'price' => 'required',
             'year' => 'required',
             'page' => 'required',
