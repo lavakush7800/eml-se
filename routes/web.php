@@ -58,8 +58,8 @@ Route::get('/category/delete/{id}','Crud\CategoryController@delete')->middleware
 
 
 Route::get('/user','Crud\FrontEndController@index');
-Route::get('/book/{id}','Crud\FrontEndController@getBookId')->middleware('checklogin');
-Route::post('/cart/book','Crud\CartController@add')->middleware('checklogin');
-Route::get('/cart','Crud\CartController@addByCart')->middleware('checklogin');
-Route::get('/remove/book/{id}','Crud\CartController@removeCart')->middleware('checklogin');
-Route::post('/cart/update','Crud\CartController@update')->middleware('checklogin');
+Route::get('/book/{id}','Crud\FrontEndController@getBookId');
+Route::post('/cart/book','Crud\CartController@add');
+Route::get('/cart','Crud\CartController@addByCart');
+Route::get('/remove/book/{id}','Crud\CartController@removeCart');
+Route::post('/cart/update','Crud\CartController@update');
