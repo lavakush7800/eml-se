@@ -63,4 +63,3 @@ Route::post('/cart/book','Crud\CartController@add');
 Route::get('/cart','Crud\CartController@addByCart');
 Route::get('/remove/book/{id}','Crud\CartController@removeCart');
 Route::post('/cart/update','Crud\CartController@update');
-Route::get('front','FrontController@index');
